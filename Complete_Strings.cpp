@@ -10,7 +10,7 @@ int main() {
 		string s;
 		cin>>s;
 		map<char,int>map;
-		for(int i=;i<s.length();i++){
+		for(int i=0;i<s.length();i++){
 			map[s[i]]++;
 		}
 		if(map.size()==26){
